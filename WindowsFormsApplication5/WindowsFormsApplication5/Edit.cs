@@ -10,9 +10,9 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form3 : Form
+    public partial class Edit : Form
     {
-        public Form3()
+        public Edit()
         {
             InitializeComponent();
         }

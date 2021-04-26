@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication5
 {
-    partial class Form7
+    partial class Query2
     {
         /// <summary>
         /// Required designer variable.

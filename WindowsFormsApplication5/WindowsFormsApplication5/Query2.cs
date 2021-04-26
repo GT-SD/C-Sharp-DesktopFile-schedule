@@ -10,9 +10,9 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form7 : Form
+    public partial class Query2 : Form
     {
-        public Form7()
+        public Query2()
         {
             InitializeComponent();
         }

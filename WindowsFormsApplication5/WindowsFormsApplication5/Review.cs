@@ -10,9 +10,9 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form5 : Form
+    public partial class Review : Form
     {
-        public Form5()
+        public Review()
         {
             InitializeComponent();
             button1.Visible = false;
@@ -31,7 +31,7 @@ namespace WindowsFormsApplication5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 fr3 = new Form3();
+            Edit fr3 = new Edit();
             fr3.ShowDialog();
         }
 
@@ -72,7 +72,7 @@ namespace WindowsFormsApplication5
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form4 fr4 = new Form4();
+            Remove fr4 = new Remove();
             fr4.ShowDialog();
         }
     }

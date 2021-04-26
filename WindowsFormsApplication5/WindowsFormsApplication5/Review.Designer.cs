@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication5
 {
-    partial class Form5
+    partial class Review
     {
         /// <summary>
         /// Required designer variable.

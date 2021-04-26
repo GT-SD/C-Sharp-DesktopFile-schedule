@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication5
 {
-    partial class Form4
+    partial class Remove
     {
         /// <summary>
         /// Required designer variable.

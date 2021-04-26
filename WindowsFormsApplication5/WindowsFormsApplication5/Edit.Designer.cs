@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication5
 {
-    partial class Form3
+    partial class Edit
     {
         /// <summary>
         /// Required designer variable.

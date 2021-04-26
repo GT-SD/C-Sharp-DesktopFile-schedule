@@ -10,47 +10,47 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
 
         private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 fr2 = new Form2();
+            Add fr2 = new Add();
             fr2.ShowDialog();
         }
 
         private void редкатироватьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 fr3 = new Form3();
+            Edit fr3 = new Edit();
             fr3.ShowDialog();
         }
 
         private void удалитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 fr4 = new Form4();
+            Remove fr4 = new Remove();
             fr4.ShowDialog();
         }
 
         private void просмотрToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form5 fr5 = new Form5();
+            Review fr5 = new Review();
             fr5.ShowDialog();
             this.Activate();
         }
 
         private void аудиторияПоПредметуToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form6 fr6 = new Form6();
+            Query fr6 = new Query();
             fr6.ShowDialog();
         }
 
         private void преподавательПоПредметуToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form7 fr7 = new Form7();
+            Query2 fr7 = new Query2();
             fr7.ShowDialog();
         }
         private void SaveFile()

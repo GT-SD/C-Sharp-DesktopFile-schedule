@@ -11,10 +11,10 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form2 : Form
+    public partial class Add : Form
     {
        
-        public Form2()
+        public Add()
         {
             InitializeComponent();
         }

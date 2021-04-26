@@ -10,10 +10,10 @@ using System.IO;
 
 namespace WindowsFormsApplication5
 {
-    public partial class Form4 : Form
+    public partial class Remove : Form
     {
 
-        public Form4()
+        public Remove()
         {
             InitializeComponent();
         }
