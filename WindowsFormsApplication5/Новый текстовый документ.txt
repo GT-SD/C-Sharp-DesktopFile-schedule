@@ -1,0 +1,49 @@
+                /* SaveFile();
+                SaveFileDialog dig = new SaveFileDialog();
+                
+                if (dig.ShowDialog() == DialogResult.OK)
+                {
+                    string directory = Environment.GetFolderPath(Environment.SpecialFolder.Templates);
+                    dig.InitialDirectory = directory;
+                    Global.fileName = dig.FileName;
+                }
+                textBox1.Clear();
+                Global.aFile = new FileStream(Global.fileName, FileMode.Create);
+                Global.StreamWrite = new StreamWriter(Global.aFile);
+                Global.StreamWrite.Close();*/
+
+/*textBox1.Clear();
+                SaveFileDialog dig = new SaveFileDialog();
+                dig.DefaultExt = "*.txt";
+                dig.Filter = "txt|*.txt";
+                if (dig.ShowDialog() == DialogResult.OK)
+                {
+                    string directory = Environment.GetFolderPath(Environment.SpecialFolder.Templates);
+                    dig.InitialDirectory = directory;
+                    Global.fileName = dig.FileName;                            
+                }                                                               
+                Global.aFile = new FileStream(Global.fileName, FileMode.Create);
+                Global.StreamWrite = new StreamWriter(Global.aFile);
+                Global.StreamWrite.Close();*/
+
+
+
+
+
+
+
+
+
+
+/-------------------------------------------------------------------------------------------------------
+
+
+                   /* FileStream input = File.OpenRead(Global.fileName), output = new FileStream("dop.txt", FileMode.Append);
+                    input.CopyTo(output);
+                    output.Close();
+                    input.Close();
+                    FileStream inp = File.OpenRead("dop.txt"), ou = new FileStream(Global.fileName, FileMode.Create);
+                    inp.CopyTo(ou);
+                    inp.Close();
+                    ou.Close();*/
+                    //File.Delete("dop.txt");
